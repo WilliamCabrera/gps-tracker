@@ -59,8 +59,8 @@ export default function Home() {
           >
             +
           </button>
-          <div> Latitude </div>
-          <div>{lat}</div>
+          <div className="text-gray-600"> Latitude </div>
+          <div className="text-gray-600">{lat}</div>
           {/*  <input
             defaultValue={lat}
             type="number"
@@ -82,8 +82,8 @@ export default function Home() {
           >
             +
           </button>
-          <div> Longitude </div>
-          <div>{lng}</div>
+          <div className="text-gray-600"> Longitude </div>
+          <div className="text-gray-600">{lng}</div>
           {/*  <input
             defaultValue={lat}
             type="number"
